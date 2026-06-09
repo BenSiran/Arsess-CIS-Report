@@ -196,7 +196,7 @@
   .data-table tr:last-child td { border-bottom: none; }
   .data-table tr:hover td { background: var(--surface-light); }
 
-  /* ── RESPONSIVE @MEDIA MOVED INTO STYLE TAG ── */
+  /* ── RESPONSIVE @MEDIA ── */
   @media (max-width: 768px) {
     .section, .cover-body { padding: 36px 20px; }
     footer { padding: 28px 20px; display: flex; flex-direction: column; gap: 16px; text-align: center; }
@@ -237,6 +237,7 @@
 </head>
 <body class="brand-pattern">
 
+<!-- NAV -->
 <nav>
   <span class="nav-brand">AHAN ARSESS · آهن آرسس</span>
   <div class="nav-links">
@@ -248,23 +249,26 @@
   </div>
 </nav>
 
+<!-- REVISION BANNER -->
 <div class="revision-banner">
   <span>⚠️</span>
   <span><strong>نسخه اصلاح‌شده — خرداد ۱۴۰۴:</strong> اشتباهات عددی تصحیح شد · ادعاهای تأییدنشده علامت‌گذاری شدند · پیوست منابع اضافه شد</span>
 </div>
 
+<!-- HERO -->
 <div class="hero">
   <span class="hero-eyebrow">Strategic Market Report · CIS 1404</span>
   <h1>فرصت صادرات فولاد<br>به بازارهای <em>CIS</em></h1>
   <p class="hero-sub">تحلیل داده‌محور بازار ازبکستان و تاجیکستان — حجم مبادلات تجاری، تقاضای محصولات، مسیرهای ترانزیت و کانال‌های دیجیتال B2B</p>
   <div class="hero-meta">
     <span>📋 تهیه‌شده توسط آهن آرسس</span>
-    <span>✍️ مشاور برندینگ و محتوا: بن سیران</span>
+    <span>✍️ گردآورنده / نویسنده: بنیامین سیران</span>
     <span>📅 نسخه اصلاح‌شده · خرداد ۱۴۰۴</span>
     <span>🔗 منابع: UN Comtrade · OEC · TradingEconomics</span>
   </div>
 </div>
 
+<!-- OVERVIEW -->
 <section class="section" id="overview">
   <div class="section-inner">
     <div class="section-label">Overview</div>
@@ -304,7 +308,7 @@
           <span class="kpi-value">$۵.۸M</span>
           <span class="badge-ok">✓ تأییدشده</span>
         </div>
-        <div class="kpi-label">صادرات ایران → تاجیکستان · ۲۰۳۳<br><small>منبع: UN Comtrade</small></div>
+        <div class="kpi-label">صادرات ایران → تاجیکستان · ۲۰۲۳<br><small>منبع: UN Comtrade</small></div>
       </div>
       <div class="kpi accent">
         <div class="kpi-value">۱۱M تن</div>
@@ -312,6 +316,7 @@
       </div>
     </div>
 
+    <!-- Correction alerts -->
     <div class="alert fixed">
       <span class="alert-icon">✎</span>
       <div class="alert-body">
@@ -329,12 +334,14 @@
   </div>
 </section>
 
+<!-- MARKETS -->
 <section class="section" id="markets">
   <div class="section-inner">
     <div class="section-label">Market Profiles</div>
     <div class="section-title">ازبکستان و تاجیکستان</div>
 
     <div class="market-grid">
+      <!-- Uzbekistan -->
       <div class="market-card primary">
         <div class="market-card-flag">🇺🇿</div>
         <div class="market-card-name">UZBEKISTAN</div>
@@ -366,6 +373,7 @@
         </div>
       </div>
 
+      <!-- Tajikistan -->
       <div class="market-card secondary">
         <div class="market-card-flag">🇹🇯</div>
         <div class="market-card-name">TAJIKISTAN</div>
@@ -398,6 +406,7 @@
       </div>
     </div>
 
+    <!-- Supplier Share Bar Chart -->
     <div class="chart-wrap">
       <div class="chart-title">سهم تامین‌کنندگان در بازار فولاد ازبکستان — ۲۰۲۴</div>
       <div class="bar-row">
@@ -431,6 +440,7 @@
       <p style="font-size:.75rem;color:var(--muted);margin-top:.9rem">ارقام تامین‌کنندگان اصلی بر اساس الگوهای ترند گمرکی ثبت شده و سهم بازار ایران به طور دقیق بر مبنای دیتای رسمی ۱.۶٪ تنظیم شده است.</p>
     </div>
 
+    <!-- Rebar Comparison -->
     <div class="section-label" style="margin-bottom:.5rem">Rebar Import Comparison</div>
     <p style="font-size:.83rem;color:var(--muted);margin-bottom:1rem">مقایسه بازار میلگرد ایرانی در کشورهای CIS</p>
 
@@ -481,6 +491,7 @@
   </div>
 </section>
 
+<!-- PRODUCTS -->
 <section class="section" id="products">
   <div class="section-inner">
     <div class="section-label">Product Intelligence</div>
@@ -526,7 +537,7 @@
           <span class="product-row-label">نبشی، ناودانی و مقاطع فولادی</span>
           <div style="display:flex;align-items:center;gap:.5rem">
             <span class="product-row-bar"><span class="product-row-bar-fill" style="width:100%"></span></span>
-            <span class="product-row-value">$۳.۷۳M</span>
+            <span class="product-row-value">$۳.7۳M</span>
           </div>
         </div>
         <div class="product-row">
@@ -548,6 +559,7 @@
   </div>
 </section>
 
+<!-- LOGISTICS -->
 <section class="section" id="logistics">
   <div class="section-inner">
     <div class="section-label">Logistics</div>
@@ -569,6 +581,7 @@
   </div>
 </section>
 
+<!-- DIGITAL -->
 <section class="section" id="digital">
   <div class="section-inner">
     <div class="section-label">Digital Strategy</div>
@@ -605,12 +618,13 @@
         <div class="digital-card-icon">💬</div>
         <div class="digital-card-name">واتس‌اپ</div>
         <div class="digital-card-val" style="font-size:.9rem">فعال</div>
-        <div class="digital-card-sub">ارتباط مستقیم و مداوم B2B</div>
+        <div class="digital-card-sub">ارتباط مستقیم B2B</div>
       </div>
     </div>
   </div>
 </section>
 
+<!-- FAIRS -->
 <section class="section" id="fairs">
   <div class="section-inner">
     <div class="section-label">Physical Presence</div>
@@ -630,17 +644,34 @@
         <div class="fair-body">
           <span class="fair-tag suggested">پیشنهادی</span>
           <h4>🇺🇿 UzMetalMashe Expo — بزرگ‌ترین نمایشگاه فلزکاری ازبکستان</h4>
-          <p>متالوژی، محصولات نورد فلزی، سازه‌های سنگین فلزی</p>
+          <p>متالوژی، محصولات نورد فلزی، سازه‌های سنگین فلزی · برگزاری دوسالانه</p>
+        </div>
+      </div>
+      <div class="fair-card">
+        <div class="fair-date"><div class="fair-date-month">Nov</div><div class="fair-date-day">۱۲</div><div class="fair-date-month">2026</div></div>
+        <div class="fair-body">
+          <span class="fair-tag monitor">رصد کن</span>
+          <h4>🇹ัจิกستان Universal Fair 2026 — نمایشگاه جامع تاجیکستان</h4>
+          <p>Dushanbe Expo · اتاق بازرگانی · بخش‌های فلز، تجهیزات فلزکاری، ساختمان و صنعت</p>
+        </div>
+      </div>
+      <div class="fair-card">
+        <div class="fair-date"><div class="fair-date-month">سالانه</div><div class="fair-date-day">—</div><div class="fair-date-month"></div></div>
+        <div class="fair-body">
+          <span class="fair-tag monitor">پایش</span>
+          <h4>🇹🇯 Mining World Tajikistan + Tajikistan Infrastructure</h4>
+          <p>مرکز نمایشگاهی کوه‌بربد، دوشنبه · رویداد سالانه</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
+<!-- CONCLUSION -->
 <section class="section" id="conclusion">
   <div class="section-inner">
     <div class="section-label">Strategic Conclusion</div>
-    <div class="section-title">توصیه‌های استراتژیک نهایی</div>
+    <div class="section-title">توصیه‌های استراتژیک</div>
 
     <div class="conclusion-grid">
       <div class="conclusion-card">
@@ -649,12 +680,80 @@
           <li>راه‌اندازی کانال تلگرام B2B به ازبکی و روسی با اعلان قیمت روزانه بیلت، ناودانی و نبشی</li>
           <li>پست‌های اینستاگرام برای بازاریابی دیجیتال ۱۱ میلیون کاربر ازبکستان</li>
           <li>پایپ‌لاین مستقیم واتس‌اپ برای مذاکرات مستقیم تجاری</li>
+          <li>لیست قیمت میلگرد A4 به ازبکی، روسی و انگلیسی</li>
         </ul>
       </div>
+      <div class="conclusion-card">
+        <h4>📅 اقدامات برنامه‌ریزی‌شده</h4>
+        <ul>
+          <li>رزرو غرفه UzBuild 2026 — ۱۰ تا ۱۲ فوریه (Q3 1404)</li>
+          <li>ارزیابی حضور در Tajikistan Universal Fair 2026 (Q2 1405)</li>
+          <li>بررسی UzMetalMashe Expo (دوسالانه · پایش)</li>
+          <li>تکمیل پیوست منابع و روش‌شناسی برای نسخه نهایی</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="table-wrap">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>اقدام</th>
+            <th>بازار</th>
+            <th>کانال</th>
+            <th>اولویت زمانی</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>راه‌اندازی کانال تلگرام B2B به ازبکی و روسی</td>
+            <td>ازبکستان</td>
+            <td>تلگرام</td>
+            <td><span class="priority-dot dot-red"></span> فوری</td>
+          </tr>
+          <tr>
+            <td>رزرو غرفه UzBuild 2026</td>
+            <td>ازبکستان</td>
+            <td>فیزیکی</td>
+            <td><span class="priority-dot dot-red"></span> Q3 1404</td>
+          </tr>
+          <tr>
+            <td>پست‌های اینستاگرام به ازبکی و فارسی</td>
+            <td>هر دو</td>
+            <td>اینستاگرام</td>
+            <td><span class="priority-dot dot-red"></span> فوری</td>
+          </tr>
+          <tr>
+            <td>پایپ‌لاین واتس‌اپ برای مذاکرات مستقیم</td>
+            <td>هر دو</td>
+            <td>واتس‌اپ</td>
+            <td><span class="priority-dot dot-red"></span> فوری</td>
+          </tr>
+          <tr>
+            <td>لیست قیمت میلگرد A4 به سه زبان</td>
+            <td>هر دو</td>
+            <td>همه کانال‌ها</td>
+            <td><span class="priority-dot dot-red"></span> فوری</td>
+          </tr>
+          <tr>
+            <td>ارزیابی Tajikistan Universal Fair 2026</td>
+            <td>تاجیکستان</td>
+            <td>فیزیکی</td>
+            <td><span class="priority-dot dot-yellow"></span> Q2 1405</td>
+          </tr>
+          <tr>
+            <td>بررسی UzMetalMashe Expo</td>
+            <td>ازبکستان</td>
+            <td>فیزیکی</td>
+            <td><span class="priority-dot dot-blue"></span> پایش</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </section>
 
+<!-- SOURCES & METHODOLOGY APPENDIX -->
 <div class="sources-section" id="sources">
   <div class="sources-inner">
     <div class="section-label" style="margin-bottom:.5rem">Appendix · پیوست</div>
@@ -666,12 +765,21 @@
         <h4>UN Comtrade Database</h4>
         <p>داده‌های گمرکی رسمی تجارت بین‌الملل. منبع صحت‌سنجی ارزش دلاری کدهای صادراتی HS72 ایران به کشورهای CIS.</p>
         <a href="https://comtradeplus.un.org" target="_blank">comtradeplus.un.org</a>
+        <div class="source-coverage">✓ پوشش: صادرات ایران → ازبکستان و تاجیکستان (HS72)</div>
+      </div>
+      <div class="source-card">
+        <div class="source-card-category">تجارت کالا</div>
+        <h4>ITC Trade Map</h4>
+        <p>پایگاه داده ITC برای تحلیل جریان‌های تجاری بین‌المللی، رقبا و بازارها.</p>
+        <a href="https://www.trademap.org" target="_blank">trademap.org</a>
+        <div class="source-coverage">✓ پوشش: تفکیک محصول، سهم بازار تامین‌کنندگان</div>
       </div>
       <div class="source-card">
         <div class="source-card-category">رسانه‌های اجتماعی</div>
         <h4>DataReportal / We Are Social</h4>
         <p>مرجع اصلاح و همگام‌سازی آمار ۱۱ میلیون کاربر دیجیتال اینستاگرام در بازار هدف.</p>
         <a href="https://datareportal.com" target="_blank">datareportal.com</a>
+        <div class="source-coverage">⚠ نیاز: تأیید تلگرام ۲۷M، اینستاگرام ۱۱M، یوتیوب ۱۳M</div>
       </div>
     </div>
 
@@ -681,526 +789,10 @@
   </div>
 </div>
 
+<!-- FOOTER -->
 <footer>
   آهن آرسس · گزارش بازار فولاد CIS · نسخه اصلاح‌شده و یکپارچه · خرداد ۱۴۰۴<br>
   <span style="color:var(--muted);margin-top:.25rem;display:block">گردآورنده / نویسنده: بنیامین سیران (مشاور برندینگ و محتوا)</span>
-</footer>
-
-</body>
-</html>    --kaz:          #8e6cb5;
-    --iran:         #c99e67;
-  }
-
-  html { scroll-behavior: smooth; }
-
-  body {
-    font-family: 'Vazirmatn', sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    font-size: 15px;
-    line-height: 1.7;
-    min-height: 100vh;
-  }
-
-  /* پترن هندسی راست‌گوشه و منظم آهن آرسس (بدون خطوط مورب) */
-  .brand-pattern {
-    background-image: 
-      linear-gradient(90deg, rgba(201, 158, 103, 0.04) 1px, transparent 1px),
-      linear-gradient(0deg, rgba(201, 158, 103, 0.04) 1px, transparent 1px);
-    background-size: 30px 30px;
-  }
-
-  /* هدر و منو */
-  nav {
-    position: sticky; top: 0; z-index: 100;
-    background: rgba(11, 21, 31, 0.95);
-    backdrop-filter: blur(12px);
-    border-bottom: 1px solid var(--border-alpha);
-    padding: 0 2rem;
-    display: flex; align-items: center; justify-content: space-between;
-    height: 56px;
-  }
-  .nav-brand { font-size: 0.95rem; font-weight: 800; letter-spacing: .05em; color: var(--accent); }
-  .nav-links { display: flex; gap: 1.6rem; }
-  .nav-links a { color: var(--muted); text-decoration: none; font-size: .85rem; transition: color .2s; font-weight: 500; }
-  .nav-links a:hover { color: var(--accent); }
-
-  /* بنر اطلاع‌رسانی ویرایش گزارش */
-  .revision-banner {
-    background: linear-gradient(135deg, #1b1916 0%, #292117 100%);
-    border-bottom: 2px solid var(--accent);
-    padding: .75rem 2rem;
-    display: flex; align-items: center; gap: .75rem;
-    font-size: .85rem; color: var(--accent);
-  }
-  .revision-banner strong { color: var(--accent-light); }
-
-  /* استایل‌های بخش کاور و هیرو (اصلاح کدهای تصویر اول) */
-  .cover-tag { 
-    font-size: 11px; font-weight: 600; letter-spacing: 0.12em; 
-    color: var(--accent); text-align: right; line-height: 2; 
-  }
-  .cover-body { padding: 80px 0 40px; }
-  .cover-eyebrow { 
-    font-size: 11px; font-weight: 700; letter-spacing: 0.2em; 
-    color: var(--accent); text-transform: uppercase; margin-bottom: 20px; direction: ltr; 
-  }
-  .cover-headline { 
-    font-size: clamp(38px, 5.5vw, 72px); font-weight: 900; 
-    line-height: 1.2; color: var(--text); margin-bottom: 24px; 
-  }
-  .cover-headline em { font-style: normal; color: var(--accent); }
-  .cover-sub { font-size: 16px; font-weight: 300; color: var(--muted); max-width: 600px; line-height: 1.8; }
-  .cover-bottom { display: flex; justify-content: space-between; align-items: center; }
-  .cover-top { display: flex; flex-direction: column; gap: 20px; }
-
-  /* استایل‌های باکس‌های هایلایت و نمایشگاه‌ها (اصلاح کدهای تصویر دوم) */
-  .highlight-box {
-    border: 1px solid var(--border);
-    padding: 12px 20px; margin-top: 15px; margin-bottom: 15px;
-    background: rgba(18, 52, 81, 0.4);
-  }
-  .highlight-box .hl-label {
-    font-size: 10px; font-weight: 700; color: var(--accent);
-    letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 6px; direction: ltr;
-  }
-  .highlight-box .hl-text {
-    font-size: 13px; color: var(--text); font-weight: 600; line-height: 1.7;
-  }
-  .expo-card { display: flex; flex-direction: column; gap: 12px; }
-  .expo-date {
-    border-left: none; border-bottom: 2px solid var(--border);
-    padding-left: 0; padding-bottom: 10px;
-  }
-
-  /* بخش اصلی هیرو */
-  .hero {
-    padding: 5rem 2rem 4rem;
-    max-width: 900px; margin: 0 auto;
-    text-align: center;
-  }
-  .hero-eyebrow {
-    display: inline-block;
-    font-size: .75rem; font-weight: 700; letter-spacing: .12em;
-    color: var(--accent); text-transform: uppercase;
-    border: 1px solid var(--accent); border-radius: 3px;
-    padding: .2rem .7rem; margin-bottom: 1.5rem;
-  }
-  .hero h1 {
-    font-size: clamp(2rem, 5vw, 3.2rem);
-    font-weight: 900; line-height: 1.3;
-    margin-bottom: 1rem;
-    color: var(--text);
-  }
-  .hero h1 em { color: var(--accent); font-style: normal; }
-  .hero-sub { color: var(--muted); font-size: .95rem; max-width: 580px; margin: 0 auto 2.5rem; }
-  .hero-meta {
-    display: flex; align-items: center; justify-content: center; gap: 1.5rem;
-    font-size: .8rem; color: var(--muted); flex-wrap: wrap;
-  }
-  .hero-meta span { display: flex; align-items: center; gap: .35rem; }
-
-  /* ساختار سکشن‌ها */
-  .section { padding: 4rem 2rem; border-top: 1px solid var(--border-alpha); }
-  .section-inner { max-width: 900px; margin: 0 auto; }
-  .section-label {
-    font-size: .75rem; font-weight: 700; letter-spacing: .14em;
-    color: var(--accent); text-transform: uppercase; margin-bottom: .5rem;
-  }
-  .section-title { font-size: 1.7rem; font-weight: 800; margin-bottom: 2rem; color: var(--text); }
-
-  /* گرید کارت‌های آمار و KPI */
-  .kpi-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 1px;
-    background: var(--border-alpha);
-    border: 1px solid var(--border-alpha);
-    border-radius: 8px; overflow: hidden;
-    margin-bottom: 2.5rem;
-  }
-  .kpi {
-    background: var(--surface);
-    padding: 1.4rem 1.2rem;
-    display: flex; flex-direction: column; gap: .4rem;
-  }
-  .kpi-value { font-size: 2rem; font-weight: 900; line-height: 1; }
-  .kpi-label { font-size: .8rem; color: var(--muted); line-height: 1.5; }
-  .kpi.accent .kpi-value { color: var(--accent); }
-  .kpi.ok .kpi-value    { color: var(--ok); }
-  .kpi.warn .kpi-value  { color: var(--warn); }
-  .kpi.blue .kpi-value  { color: #6ba4e8; }
-
-  .kpi-value-row { display: flex; align-items: baseline; gap: .4rem; justify-content: space-between; }
-  .badge-warn {
-    font-size: .65rem; font-weight: 700;
-    background: var(--warn-bg); color: var(--warn);
-    border: 1px solid var(--warn-border);
-    border-radius: 3px; padding: .1rem .4rem;
-    white-space: nowrap;
-  }
-  .badge-ok {
-    font-size: .65rem; font-weight: 700;
-    background: var(--ok-bg); color: var(--ok);
-    border: 1px solid var(--ok-border);
-    border-radius: 3px; padding: .1rem .4rem;
-  }
-  .badge-fixed {
-    font-size: .65rem; font-weight: 700;
-    background: #10243d; color: #6ba4e8;
-    border: 1px solid #1c3d66;
-    border-radius: 3px; padding: .1rem .4rem;
-  }
-
-  /* باکس‌های وضعیت و هشدار */
-  .alert {
-    border-radius: 6px; padding: 1.1rem 1.3rem;
-    margin-bottom: 1.2rem; font-size: .88rem; line-height: 1.6;
-    display: flex; gap: .75rem;
-  }
-  .alert-icon { font-size: 1.1rem; flex-shrink: 0; }
-  .alert-body strong { display: block; margin-bottom: .25rem; font-size: .95rem; }
-  .alert.warn  { background: var(--warn-bg);  border: 1px solid var(--warn-border); color: #e3c49a; }
-  .alert.ok    { background: var(--ok-bg);    border: 1px solid var(--ok-border);   color: #8cd4a4; }
-  .alert.info  { background: #132438;         border: 1px solid #1f3b5c;            color: #90beed; }
-  .alert.fixed { background: #132438;         border: 1px solid #1f3b5c;            color: #90beed; }
-
-  /* گرید بازارها */
-  .market-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 2rem; }
-  @media (max-width: 640px) { .market-grid { grid-template-columns: 1fr; } }
-
-  .market-card {
-    background: var(--surface); border: 1px solid var(--border-alpha);
-    border-radius: 8px; padding: 1.5rem; position: relative; overflow: hidden;
-  }
-  .market-card::before { content: ''; position: absolute; top: 0; right: 0; left: 0; height: 3px; }
-  .market-card.primary::before { background: var(--accent); }
-  .market-card.secondary::before { background: var(--border-alpha); }
-
-  .market-card-flag { font-size: 2rem; margin-bottom: .5rem; }
-  .market-card-name { font-size: 1.1rem; font-weight: 800; color: var(--accent); margin-bottom: .2rem; }
-  .market-card-tag {
-    display: inline-block; font-size: .7rem; font-weight: 700;
-    padding: .15rem .5rem; border-radius: 3px; margin-bottom: 1rem;
-  }
-  .tag-primary  { background: rgba(201, 158, 103, 0.15); color: var(--accent); border: 1px solid var(--border-alpha); }
-  .tag-secondary{ background: rgba(255,255,255,.05); color: var(--muted); border: 1px solid var(--faint); }
-
-  .market-row { display: flex; justify-content: space-between; align-items: baseline;
-    padding: .55rem 0; border-bottom: 1px solid var(--faint); font-size: .88rem; }
-  .market-row:last-child { border-bottom: none; }
-  .market-row-label { color: var(--muted); }
-  .market-row-value { font-weight: 600; }
-  .market-row-value.accent { color: var(--accent); }
-  .market-row-value.ok     { color: var(--ok); }
-  .market-row-value.warn   { color: var(--warn); }
-  .market-row-value.blue   { color: #6ba4e8; }
-  .market-row-value.flex   { display: flex; align-items: center; gap: .4rem; }
-
-  /* چارت‌های میله‌ای افقی */
-  .chart-wrap { background: var(--surface); border: 1px solid var(--border-alpha); border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; }
-  .chart-title { font-size: .9rem; font-weight: 700; margin-bottom: 1.2rem; color: var(--muted); }
-  .bar-row { margin-bottom: .9rem; }
-  .bar-meta { display: flex; justify-content: space-between; font-size: .85rem; margin-bottom: .35rem; }
-  .bar-label { font-weight: 600; }
-  .bar-val   { color: var(--muted); }
-  .bar-track { height: 10px; background: var(--faint); border-radius: 5px; overflow: hidden; }
-  .bar-fill  { height: 100%; border-radius: 5px; transition: width .4s ease; }
-
-  /* بخش بندی محصولات تجاری متمایز */
-  .product-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem; }
-  @media (max-width: 640px) { .product-grid { grid-template-columns: 1fr; } }
-
-  .product-card { background: var(--surface); border: 1px solid var(--border-alpha); border-radius: 8px; padding: 1.4rem; }
-  .product-card-title { font-size: .9rem; font-weight: 700; color: var(--accent); margin-bottom: 1.2rem; display: flex; align-items: center; gap: .4rem; }
-  .product-row { display: flex; justify-content: space-between; align-items: center; padding: .6rem 0; border-bottom: 1px solid var(--faint); font-size: .86rem; }
-  .product-row:last-child { border-bottom: none; }
-  .product-row-label { color: var(--text); }
-  .product-row-value { font-weight: 700; color: var(--accent-light); }
-  .product-row-bar { width: 60px; height: 5px; background: var(--faint); border-radius: 2px; margin-right: .5rem; display: inline-block; vertical-align: middle; }
-  .product-row-bar-fill { height: 100%; border-radius: 2px; background: var(--accent); }
-
-  /* جداول داده */
-  .table-wrap { background: var(--surface); border: 1px solid var(--border-alpha); border-radius: 8px; overflow: hidden; }
-  .data-table { width: 100%; border-collapse: collapse; font-size: .88rem; margin-bottom: 0; }
-  .data-table th {
-    text-align: right; padding: .8rem 1rem;
-    background: var(--surface-light); color: var(--accent);
-    font-size: .8rem; font-weight: 700;
-    border-bottom: 1px solid var(--border-alpha);
-  }
-  .data-table td { padding: .8rem 1rem; border-bottom: 1px solid var(--faint); vertical-align: middle; }
-  .data-table tr:last-child td { border-bottom: none; }
-  .data-table tr:hover td { background: var(--surface-light); }
-
-  .rebar-row-warn td { background: rgba(224, 169, 109, 0.08) !important; }
-  .rebar-row-ok   td { background: rgba(82, 183, 136, 0.08) !important; }
-
-  /* بخش تدارکات و لجستیک */
-  .logistics-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem; }
-  @media (max-width: 600px) { .logistics-grid { grid-template-columns: 1fr; } }
-  .logistics-card { background: var(--surface); border: 1px solid var(--border-alpha); border-radius: 8px; padding: 1.2rem; }
-  .logistics-card h4 { font-size: .95rem; font-weight: 700; margin-bottom: .75rem; color: var(--accent); }
-  .logistics-item { font-size: .85rem; color: var(--muted); margin-bottom: .35rem; display: flex; gap: .4rem; }
-  .logistics-item strong { color: var(--text); }
-
-  /* گرید پلتفرم‌های دیجیتال */
-  .digital-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(135px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; }
-  .digital-card { background: var(--surface); border: 1px solid var(--border-alpha); border-radius: 8px; padding: 1rem; text-align: center; }
-  .digital-card-icon { font-size: 1.6rem; margin-bottom: .4rem; }
-  .digital-card-name { font-size: .75rem; font-weight: 700; color: var(--accent); margin-bottom: .3rem; }
-  .digital-card-val  { font-size: 1.2rem; font-weight: 800; color: var(--text); margin-bottom: .15rem; }
-  .digital-card-sub  { font-size: .7rem; color: var(--muted); line-height: 1.4; }
-
-  /* رویدادها و نمایشگاه‌ها */
-  .fair-list { display: flex; flex-direction: column; gap: 1rem; margin-bottom: 1.5rem; }
-  .fair-card { background: var(--surface); border: 1px solid var(--border-alpha); border-radius: 8px; padding: 1.2rem; display: flex; gap: 1rem; align-items: flex-start; }
-  .fair-date { min-width: 70px; text-align: center; background: var(--surface-light); border: 1px solid var(--border-alpha); border-radius: 6px; padding: .5rem; }
-  .fair-date-month { font-size: .7rem; color: var(--accent); font-weight: 700; text-transform: uppercase; }
-  .fair-date-day   { font-size: 1.2rem; font-weight: 800; line-height: 1.1; color: var(--text); }
-  .fair-body { flex: 1; }
-  .fair-body h4 { font-size: .95rem; font-weight: 700; margin-bottom: .25rem; color: var(--text); }
-  .fair-body p  { font-size: .82rem; color: var(--muted); }
-  .fair-tag { display: inline-block; font-size: .68rem; font-weight: 700; padding: .1rem .45rem; border-radius: 2px; margin-bottom: .4rem; }
-  .fair-tag.priority   { background: rgba(201, 158, 103, 0.2); color: var(--accent); border: 1px solid var(--accent); }
-  .fair-tag.suggested  { background: rgba(107, 164, 232, 0.15); color: #6ba4e8; border: 1px solid #3c77bf; }
-
-  /* استایل‌های ریسپانسیو کاملاً بهینه شده (انتقال کدهای تصویر دوم) */
-  @media (max-width: 768px) {
-    .section, .cover-body { padding: 36px 20px; }
-    footer { padding: 28px 20px; flex-direction: column; gap: 16px; text-align: center; }
-    .cover-headline { font-size: 32px; }
-    .market-grid, .product-grid, .logistics-grid { grid-template-columns: 1fr; }
-  }
-
-  .priority-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-left: .4rem; }
-  .dot-red    { background: #e65c5c; }
-
-  .conclusion-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 2rem; }
-  @media (max-width: 640px) { .conclusion-grid { grid-template-columns: 1fr; } }
-  .conclusion-card { background: var(--surface); border: 1px solid var(--border-alpha); border-radius: 8px; padding: 1.3rem; }
-  .conclusion-card h4 { font-size: .95rem; font-weight: 700; color: var(--accent); margin-bottom: .75rem; }
-  .conclusion-card ul { list-style: none; display: flex; flex-direction: column; gap: .5rem; }
-  .conclusion-card li { font-size: .85rem; color: var(--muted); display: flex; gap: .5rem; }
-  .conclusion-card li::before { content: '→'; color: var(--accent); flex-shrink: 0; font-weight: 700; }
-
-  /* سکشن پیوست منابع */
-  .sources-section { background: #070e14; border-top: 2px solid var(--accent); padding: 3rem 2rem; }
-  .sources-inner { max-width: 900px; margin: 0 auto; }
-  .sources-title { font-size: 1.3rem; font-weight: 800; margin-bottom: .4rem; color: var(--text); }
-  .sources-subtitle { font-size: .85rem; color: var(--muted); margin-bottom: 2rem; }
-  .sources-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; }
-  .source-card { background: var(--surface); border: 1px solid var(--border-alpha); border-radius: 6px; padding: 1rem; }
-  .source-card-category { font-size: .7rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); margin-bottom: .4rem; }
-  .source-card h4 { font-size: .9rem; font-weight: 700; margin-bottom: .3rem; }
-  .source-card p  { font-size: .8rem; color: var(--muted); margin-bottom: .5rem; }
-  .source-card a  { font-size: .78rem; color: #6ba4e8; text-decoration: none; word-break: break-all; }
-  .source-card a:hover { text-decoration: underline; }
-  .source-coverage { font-size: .75rem; color: var(--ok); margin-top: .4rem; }
-
-  .methodology-note {
-    margin-top: 2rem;
-    background: var(--warn-bg); border: 1px solid var(--warn-border);
-    border-radius: 6px; padding: 1.1rem 1.3rem; font-size: .85rem; color: #e3c49a; line-height: 1.7;
-  }
-  .methodology-note strong { color: var(--accent); }
-
-  .correction {
-    display: inline-flex; align-items: center; gap: .25rem; font-size: .7rem; font-weight: 700;
-    background: #10243d; color: #6ba4e8; border: 1px solid #1c3d66; border-radius: 3px;
-    padding: .1rem .4rem; vertical-align: middle; margin-right: .3rem;
-  }
-  del { color: #e65c5c; text-decoration-color: #e65c5c; font-size: .88em; margin-left: .3rem; }
-  
-  footer { padding: 40px 20px; background: #070e14; border-top: 1px solid var(--border-alpha); text-align: center; font-size: 13px; line-height: 1.8;}
-</style>
-</head>
-<body class="brand-pattern">
-
-<nav>
-  <span class="nav-brand">AHAN ARSESS · آهن آرسس</span>
-  <div class="nav-links">
-    <a href="#overview">نگاه کلی</a>
-    <a href="#markets">بازارها</a>
-    <a href="#products">محصولات</a>
-    <a href="#digital">دیجیتال</a>
-    <a href="#sources">منابع</a>
-  </div>
-</nav>
-
-<div class="revision-banner">
-  <span>⚠️</span>
-  <span><strong>نسخه اصلاح‌شده — خرداد ۱۴۰۴:</strong> اشتباهات عددی تصحیح شد · ادعاهای تأییدنشده علامت‌گذاری شدند · پیوست منابع اضافه شد</span>
-</div>
-
-<div class="hero">
-  <span class="hero-eyebrow">Strategic Market Report · CIS 1404</span>
-  <h1>فرصت صادرات فولاد<br>به بازارهای <em>CIS</em></h1>
-  <p class="hero-sub">تحلیل داده‌محور بازار ازبکستان و تاجیکستان — حجم مبادلات تجاری، تقاضای محصولات متمایز، مسیرهای ترانزیت و کانال‌های دیجیتال B2B</p>
-  <div class="hero-meta">
-    <span>📋 تهیه‌شده توسط آهن آرسس</span>
-    <span>✍️ مشاور برندینگ و محتوا: بن سیران</span>
-    <span>📅 خرداد ۱۴۰۴</span>
-    <span>🔗 منابع: UN Comtrade · OEC · TradingEconomics</span>
-  </div>
-</div>
-
-<section class="section" id="overview">
-  <div class="section-inner">
-    <div class="section-label">Overview</div>
-    <div class="section-title">نگاه کلی به بازار</div>
-
-    <div class="kpi-grid">
-      <div class="kpi ok">
-        <div class="kpi-value-row">
-          <span class="kpi-value">$۲.۰۲B</span>
-          <span class="badge-ok">✓ تأییدشده</span>
-        </div>
-        <div class="kpi-label">کل واردات آهن و فولاد ازبکستان · ۲۰۲۴<br><small>منبع: UN Comtrade</small></div>
-      </div>
-      <div class="kpi warn">
-        <div class="kpi-value-row">
-          <span class="kpi-value">۳۰۰K تن</span>
-          <span class="badge-warn">⚠ تأییدنشده</span>
-        </div>
-        <div class="kpi-label">تعهد خرید گزارش‌شده برای ۲۰۲۵<br><small>منبع مستقل موجود نیست</small></div>
-      </div>
-      <div class="kpi blue">
-        <div class="kpi-value-row">
-          <span class="kpi-value">۱.۶٪</span>
-          <span class="badge-fixed">✎ اصلاح‌شده</span>
-        </div>
-        <div class="kpi-label">سهم واقعی ایران از بازار ازبکستان<br><small>محاسبه: ۳۲.۳۷M ÷ ۲۰۲۰M ≈ ۱.۶٪ <del>عدد قبلی: ۱.۱٪</del></small></div>
-      </div>
-      <div class="kpi ok">
-        <div class="kpi-value-row">
-          <span class="kpi-value">$۳۲.۴M</span>
-          <span class="badge-ok">✓ تأییدشده</span>
-        </div>
-        <div class="kpi-label">صادرات واقعی ایران → ازبکستان · ۲۰۲۴<br><small>منبع: UN Comtrade</small></div>
-      </div>
-    </div>
-
-    <div class="alert fixed">
-      <span class="alert-icon">✎</span>
-      <div class="alert-body">
-        <strong>اصلاح ریاضی: سهم بازار ایران ۱.۶٪ است، نه ۱.۱٪</strong>
-        رقم ۱.۱٪ که در بخش «نگاه کلی» ذکر شده بود، با محاسبات آماری همخوانی نداشت. نسبت ۳۲.۳۷ میلیون دلار به ۲.۰۲ میلیارد دلار دقیقاً برابر با ۱.۶٪ است و تصحیح شد.
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="markets">
-  <div class="section-inner">
-    <div class="section-label">Market Profiles</div>
-    <div class="section-title">پروفایل بازارها</div>
-
-    <div class="market-grid">
-      <div class="market-card primary">
-        <div class="market-card-flag">🇺🇿</div>
-        <div class="market-card-name">UZBEKISTAN</div>
-        <div class="market-card-tag tag-primary">بازار اولویت‌دار · رشد بالا</div>
-        <div class="market-row"><span class="market-row-label">کل واردات فولاد (۲۰۲۴)</span><span class="market-row-value ok">$۲.۰۲B ✓</span></div>
-        <div class="market-row"><span class="market-row-label">واردات از ایران (۲۰۲۴)</span><span class="market-row-value ok">$۳۲.۳۷M ✓</span></div>
-        <div class="market-row"><span class="market-row-label">سهم بازار واقعی ایران</span><span class="market-row-value flex blue">۱.۶٪ <span class="badge-fixed">✎ اصلاح</span></span></div>
-      </div>
-      <div class="market-card secondary">
-        <div class="market-card-flag">🇹🇯</div>
-        <div class="market-card-name">TAJIKISTAN</div>
-        <div class="market-card-tag tag-secondary">بازار ثانویه · در حال رشد</div>
-        <div class="market-row"><span class="market-row-label">واردات از ایران (۲۰۲۳)</span><span class="market-row-value ok">$۵.۸۳M ✓</span></div>
-        <div class="market-row"><span class="market-row-label">رقیب اصلی (روسیه)</span><span class="market-row-value">$۸۸.۷M</span></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="products">
-  <div class="section-inner">
-    <div class="section-label">Product Intelligence</div>
-    <div class="section-title">محصولات برجسته و متمایز</div>
-    <p style="font-size:14px; color:var(--muted); margin-bottom:20px;">تمرکز بصری و تجاری بر سبد محصولات متمایز آهن آرسس (بیلت، ناودانی و نبشی):</p>
-
-    <div class="product-grid">
-      <div class="product-card">
-        <div class="product-card-title">🇺🇿 ازبکستان — تقاضای محصولات از ایران <span class="badge-ok">✓</span></div>
-        <div class="product-row">
-          <span class="product-row-label">نبشی، ناودانی و مقاطع فولادی (U-Channels / Angles)</span>
-          <span class="product-row-value">$۱۰.۲۲M</span>
-        </div>
-        <div class="product-row">
-          <span class="product-row-label">میلگرد و شاخه‌های نورد گرم</span>
-          <span class="product-row-value">$۷.۴۸M</span>
-        </div>
-        <div class="product-row">
-          <span class="product-row-label">محصولات نیمه‌ساخته (شمش و بیلت / Billets)</span>
-          <span class="product-row-value">$۲.۹۸M</span>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <div class="product-card-title">🇹🇯 تاجیکستان — تقاضای محصولات از ایران <span class="badge-ok">✓</span></div>
-        <div class="product-row">
-          <span class="product-row-label">نبشی، ناودانی و مقاطع فولادی</span>
-          <span class="market-row-value">$۳.۷۳M</span>
-        </div>
-        <div class="product-row">
-          <span class="product-row-label">ورق‌های نورد گرم (فلت)</span>
-          <span class="product-row-value">$۱.۱۳M</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="digital">
-  <div class="section-inner">
-    <div class="section-label">Digital Channels</div>
-    <div class="section-title">کانال‌های دیجیتال B2B</div>
-
-    <div class="digital-grid">
-      <div class="digital-card">
-        <div class="digital-card-icon">✈️</div>
-        <div class="digital-card-name">تلگرام</div>
-        <div class="digital-card-val">۲۷M</div>
-        <div class="digital-card-sub">ازبکستان<br><span style="color:var(--warn);font-size:.65rem">⚠ نیاز به منبع مستقل</span></div>
-      </div>
-      <div class="digital-card">
-        <div class="digital-card-icon">📷</div>
-        <div class="digital-card-name">اینستاگرام</div>
-        <div class="digital-card-val" style="color:#6ba4e8">۱۱M</div>
-        <div class="digital-card-sub">ازبکستان<br>✎ اصلاح‌شده بر اساس DataReportal</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<div class="sources-section" id="sources">
-  <div class="sources-inner">
-    <div class="section-label" style="margin-bottom:.5rem">Appendix · پیوست</div>
-    <div class="sources-title">منابع و روش‌شناسی صحت‌سنجی</div>
-
-    <div class="sources-grid">
-      <div class="source-card">
-        <div class="source-card-category">تجارت کالا</div>
-        <h4>UN Comtrade Database</h4>
-        <p>داده‌های رسمی گمرکی تجارت بین‌الملل بر اساس کدهای استاندارد HS.</p>
-        <a href="https://comtradeplus.un.org" target="_blank">comtradeplus.un.org</a>
-      </div>
-      <div class="source-card">
-        <div class="source-card-category">رسانه‌های اجتماعی</div>
-        <h4>DataReportal</h4>
-        <p>گزارش‌های سالانه معتبر برای آمار نفوذ اینترنت و شبکه‌های اجتماعی.</p>
-        <a href="https://datareportal.com" target="_blank">datareportal.com</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<footer>
-  آهن آرسس · گزارش بازار فولاد CIS · نسخه اصلاح‌شده · خرداد ۱۴۰۴<br>
-  <span style="color:var(--muted);margin-top:.25rem;display:block">مشاور برندینگ و محتوا: بن سیران</span>
 </footer>
 
 </body>
